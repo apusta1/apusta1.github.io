@@ -22,7 +22,7 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "./build/three.module.js"
+					"three": "/build/three.module.js"
 				}
 			}
 		</script>
@@ -31,10 +31,10 @@
 
 			import * as THREE from 'three';
 
-			import { FontLoader } from './jsm/loaders/FontLoader.js';
-			import { TextGeometry } from './jsm/geometries/TextGeometry.js';
+			import { FontLoader } from '/jsm/loaders/FontLoader.js';
+			import { TextGeometry } from '/jsm/geometries/TextGeometry.js';
 
-			import Stats from './jsm/libs/stats.module.js';
+			import Stats from '/jsm/libs/stats.module.js';
 
 			THREE.Cache.enabled = true;
 
@@ -55,7 +55,7 @@
 				fontName = 'optimer', // helvetiker, optimer, gentilis, droid sans, droid serif
 				fontWeight = 'bold'; // normal bold
 
-			const height = 20,
+			const   height = 20,
 				size = 70,
 				hover = 30,
 
